@@ -1,0 +1,28 @@
+﻿@model List<PracticaBarcos.Models.BarcoViewModel>
+
+<h1>Listado de Barcos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>#IdBarco</th>
+            <th>Nombre</th>
+            <th>Antigüedad (años)</th>
+            <th>Tripulación Máxima</th>
+            <th>Tasa</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Antiguedad)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Tripulacion)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Tasa)</td>
+                </tr>
+        }
+    </tbody>
+
+</table>

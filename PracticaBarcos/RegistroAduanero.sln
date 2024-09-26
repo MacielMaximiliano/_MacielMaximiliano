@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticaBarcos", "PracticaBarcos.csproj", "{4A65E6A3-3787-4EE6-8FF2-669158389A2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticaBarcosLogica", "..\PracticaBarcosLogica\PracticaBarcosLogica.csproj", "{3394C761-FB97-4487-8D53-B4CB6A097D0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticaBarcosEntidades", "..\PracticaBarcosEntidades\PracticaBarcosEntidades.csproj", "{C24F7827-97E2-4196-A752-868BBE0E777D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarcosTest", "..\BarcosTest\BarcosTest.csproj", "{AC0496E3-1022-443F-B0E8-0BA41D1D1AA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegistroAduaneroTest", "RegistroAduaneroTest", "{C62C6FAC-09D3-43C9-A29E-7929E8E1FE92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegistroAduaneroLogica", "RegistroAduaneroLogica", "{662E170E-E76F-493B-B759-FEE478EC6DEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegistroAduaneroEntidades", "RegistroAduaneroEntidades", "{0CE7FF93-948F-484F-BFCA-1294BA2A869B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegistroAduaneroWeb", "RegistroAduaneroWeb", "{AE9330C5-8CCE-4C2E-8E52-7C691331FD7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A65E6A3-3787-4EE6-8FF2-669158389A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A65E6A3-3787-4EE6-8FF2-669158389A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A65E6A3-3787-4EE6-8FF2-669158389A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A65E6A3-3787-4EE6-8FF2-669158389A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3394C761-FB97-4487-8D53-B4CB6A097D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3394C761-FB97-4487-8D53-B4CB6A097D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3394C761-FB97-4487-8D53-B4CB6A097D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3394C761-FB97-4487-8D53-B4CB6A097D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24F7827-97E2-4196-A752-868BBE0E777D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24F7827-97E2-4196-A752-868BBE0E777D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24F7827-97E2-4196-A752-868BBE0E777D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24F7827-97E2-4196-A752-868BBE0E777D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0496E3-1022-443F-B0E8-0BA41D1D1AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0496E3-1022-443F-B0E8-0BA41D1D1AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0496E3-1022-443F-B0E8-0BA41D1D1AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0496E3-1022-443F-B0E8-0BA41D1D1AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A65E6A3-3787-4EE6-8FF2-669158389A2F} = {AE9330C5-8CCE-4C2E-8E52-7C691331FD7E}
+		{3394C761-FB97-4487-8D53-B4CB6A097D0E} = {662E170E-E76F-493B-B759-FEE478EC6DEA}
+		{C24F7827-97E2-4196-A752-868BBE0E777D} = {0CE7FF93-948F-484F-BFCA-1294BA2A869B}
+		{AC0496E3-1022-443F-B0E8-0BA41D1D1AA8} = {C62C6FAC-09D3-43C9-A29E-7929E8E1FE92}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE683AC0-C63A-4DB1-B571-08D63582C938}
+	EndGlobalSection
+EndGlobal
